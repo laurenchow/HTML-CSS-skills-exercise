@@ -1,0 +1,82 @@
+<html>
+<head>
+<style>
+
+    
+
+    div.outerboxes  {
+    height: 200;
+    width: 400;
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    font-size: 0;
+    }
+
+    div.boxes {
+        height: 100;
+        width: 100;
+        display: inline-block;
+        margin-top: 50 ;
+        margin-bottom: 25px;
+
+    }
+
+    body {
+        font-family: Gill Sans Extrabold, sans-serif;
+        margin: 10;
+    }
+
+    div#border {
+        background-color: #FF0000;
+    }
+
+    div#border2 {
+        background-color: #4169E1;
+    }
+
+    div#innerbox1 {
+        background-color: #000000;
+        margin-left: 75px;
+        margin-right: 25px;
+    }
+  
+    div#innerbox2{
+        background-color: #000000;
+        margin-left: 25px;
+        margin-right: 75px;
+
+    }
+
+</style>
+</head>
+
+<body>
+ 
+ <h1> A Fancier Form </h1>
+<label for = "name-input"> Name</label>
+<input type = "text" name = "name-input"> </input><br>
+<label for = "age-input"> Age</label>
+<input type = "text" name = "age-input"> </input><br>
+
+<label for = "color-input"> What's your favorite printer color? </label><br>
+<select name="color-input">
+    <option value="magenta" selected="selected">Magenta</option>
+    <option value= "cyan"> Cyan </option>
+    <option value= "yellow"> Yellow </option>
+    <option value= "black"> Black </option>
+</select>
+<br>
+
+<label for = "music-input"> Do you like music? </label>
+<input type = "radio" name = "music-input" value = "yes"> Yes </input>
+<input type = "radio" name = "music-input" value = "no">  No </input><br>
+
+<label for = "weather-input"> Is it raining?</label>
+<input type = "checkbox" name = "weather-input" value = "yes"> </input><br>
+
+<input type = "submit" value = "Submit">   </input>
+
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+
+    div.big_boxes{
+        background-color: #CCCCCC;
+        width: 300;
+        padding: 5;
+    }    
+
+    div#bigboxB{
+        height: 200;
+
+    }
+
+    div#bigboxA{
+        height: 175;
+        position: absolute;
+        margin-left: 325;
+    }
+
+    div.formentries{
+        margin-left: 10px;
+    }
+    body {
+        font-family: Gill Sans Extrabold, sans-serif;
+        font-size: 12;
+        margin: 0;
+    }
+
+</style>
+</head>
+
+<body>
+ 
+
+<h1> Columns! </h1>
+
+<div id="bigboxA" class = "big_boxes">
+
+    <div id="formentries">
+    <label for = "name-input"> Name</label>
+    <input type = "text" name = "name-input"> </input>
+    </div>
+
+    <div id="formentries">
+    <label for = "age-input"> Age</label>
+    <input type = "text" name = "age-input"> </input>
+    </div>
+
+    <div id="formentries">
+    <label for = "color-input"> What's your favorite printer color? </label>
+    <select name="color-input">
+        <option value="magenta" selected="selected">Magenta</option>
+        <option value= "cyan"> Cyan </option>
+        <option value= "yellow"> Yellow </option>
+        <option value= "black"> Black </option>
+    </select>
+    </div>
+
+    <div id="formentries">
+    <label for = "music-input"> </label>
+    <input type = "radio" name = "music-input" value = "yes"> Love music </input>
+    </div>
+    <div id="formentries">
+    <input type = "radio" name = "music-input" value = "no">  Hate it all </input>
+    </div>
+
+    <div id="formentries">
+    <label for = "weather-input"> Is it raining?</label>
+    <input type = "checkbox" name = "weather-input" value = "yes"> </input>
+    </div>
+    <input type = "submit" value = "Submit">   </input>
+</div>
+
+<div id="bigboxB" class = "big_boxes">
+<h2> Here is a list of things </h2>
+<ul> 
+    <li> Banana </li>
+    <li> Rabbit holes </li>
+    <li> John Quincy Adams </li>
+    <li> Sea serpents </li>
+</ul>
+
+
+</div>
+
+</body>
+</html>
